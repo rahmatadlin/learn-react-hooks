@@ -26,7 +26,7 @@ function App() {
     const contextValue = useContext(MyContext);
 
     // useReducer
-    const [state, dispatch] = useReducer(reducer, { count: 0 });
+    const [state, dispatch] = useReducer(reducer, { count: 1000 });
 
     // useRef
     const inputRef = useRef(null);
